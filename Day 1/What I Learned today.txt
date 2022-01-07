@@ -1,0 +1,14 @@
+Basic DataTypes
+fString
+print()
+len()
+some parts of Format()
+---------------------------
+PEMDAS Or BODMAS
+()
+**
+*
+/
++
+-
+----------------------------
