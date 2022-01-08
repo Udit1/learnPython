@@ -3,3 +3,5 @@ random.randint(start, end)
 
 
 Modules
+random.SystemRandom().uniform(5, 10)	Returns a secure random float number
+
