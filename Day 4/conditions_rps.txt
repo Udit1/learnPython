@@ -1,0 +1,11 @@
+#Conditions
+# user_choose     computer_choose     Status
+# rock 0                scissors 2        user win 
+# rock 0                paper 1           c Win
+# rock 0                rock 0            tie
+# paper 1               rock 0            user Win
+# paper 1               scissors 2        c win 
+# paper 1               paper 1           tie 
+# scissors 2            paper 1           user win
+# scissors 2            rock 0            c Win
+# scissors 2            scissors 2        tie
