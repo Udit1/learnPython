@@ -1,3 +1,6 @@
 sum()
 min()
 max()
+range()
+time module
+time.sleep()
