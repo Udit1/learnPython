@@ -1,0 +1,9 @@
+importing multiple packages
+-------------
+from modules import arts, words
+-------------
+
+list to string=>
+list=["a","b"]
+' '.join(list)
+
