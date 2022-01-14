@@ -1,5 +1,7 @@
 import random
+from turtle import clear
 from modules import words, arts
+from replit import clear
 
 end_of_game = False
 chosen_word = random.choice(words.word_list)
@@ -14,6 +16,7 @@ for _ in range(word_length):
 
 while not end_of_game:
     guess = input("Guess a letter: ").lower()
+    clear()
 
     for position in range(word_length):
         letter = chosen_word[position]
