@@ -1,5 +1,14 @@
-a = int(input("Enter a Number"))
+def checkPrime(number):
+    is_prime = True
+    for i in range(2, number):
+        if number % i == 0:
+            is_prime = False
+    if is_prime:
+        print("Prime Number")
+    else:
+        print("Non Prime")
 
-for i in range(2, a):
-    if a % i == 0:
-        print(a % i)
+
+for a in range(10):
+    number = int(input("Enter Number"))
+    checkPrime(number)
