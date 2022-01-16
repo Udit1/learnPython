@@ -1,8 +1,8 @@
 import pandas as pd
 import os
 
-df = pd.read_csv('Pandas/annual.csv')
-print(df.to_string())
+# df = pd.read_csv('Pandas/annual.csv')
+# print(df.to_string())
 
 # Normal Array to Table
 # Length should be the same
