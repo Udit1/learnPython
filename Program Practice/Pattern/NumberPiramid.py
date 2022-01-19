@@ -50,3 +50,22 @@ for row in range(1, 5):
         print(number, end=" ")
         number += 1
     print()
+
+
+print("""
+-------------------------------------Charactor Pattern 1-------------------------------------""")
+ascii_num = 65
+for row in range(1, 5):
+    for column in range(1, row+1):
+        print(chr(ascii_num), end=" ")
+        ascii_num += 1
+    print()
+
+print("""
+-------------------------------------Charactor Pattern 2-------------------------------------""")
+ascii_num = 65
+for row in range(1, 5):
+    for column in range(1, row+1):
+        print(chr(ascii_num), end=" ")
+    ascii_num += 1
+    print()
