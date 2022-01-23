@@ -36,6 +36,7 @@ def check_answer(computer_choose, user_choice, TURNS):
         return TURNS
     elif user_choice == computer_choose:
         print("Correct")
+        winner()
     else:
         print("Too High")
         TURNS -= 1
@@ -52,6 +53,16 @@ def difficulty():
         return 10
     else:
         return 5
+
+
+def register_user():
+    name = input("Enter Your Name")
+
+
+def winner():
+    pass
+
+# register_user()
 
 
 game()
